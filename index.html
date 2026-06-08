@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <title>Dennis Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Dennis Shlaih</h1>
+            <p>Computer Science Student</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                
+                <p>
+                    Hello! My name is Dennis Shalih and I am a Computer Science student at
+                    Hunter College and Macaulay Honors College.
+                </p>
+
+                <p>
+                    I enjoy software development, web development, and building
+                    projects that combine technology with practical solutions.
+                    Through coursework and personal projects, I have developed
+                    experience with C++, HTML, CSS, and JavaScript.
+                </p>
+
+                <p>
+                    Outside of programming, I enjoy fitness, learning new technologies,
+                    and exploring ways technology can improve everyday life.
+                </p>
+            </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <article>
+                    <a 
+                    href="https://github.com/Dennis-Shlaih/Hobby-Hub"
+                    target="_blank">
+                    
+                    <img
+                        src="assets/fithub.png"
+                        alt="Screenshot of FitHub application">
+                    </a>
+                    <div class="project-content">
+                        <h3>FitHub</h3>
+                        <p>
+                            A fitness-focused social platform where users can create,
+                            edit, and interact with posts about workouts and fitness goals.
+                        </p>
+                    </div>
+                   
+                </article>
+
+                <article>
+                    <a 
+                    href="https://github.com/Dennis-Shlaih/Crewmates"
+                    target="_blank">
+
+                        <img
+                        src="assets/crewmate-creator.png"
+                        alt="Screenshot of Crewmate Creator">
+                    </a>
+                    <div class="project-content">
+                        <h3>Crewmates</h3>
+                        <p>
+                            A basketball-themed web application built with React and
+                            Supabase that allows users to create, update, and manage
+                            custom player profiles.
+                        </p>
+                    </div>
+                </article>
+            </section>
+
+            <section id="skills">
+            <h2>Technical Skills</h2>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Java</li>
+                    <li>C++</li>
+                <li>Git & GitHub</li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out using the form below.</p>
+
+                <form>
+                    <label for ="name">Name</label>
+                    <input 
+                        type="text"
+                        id="name"
+                        name="name"
+                        required>
+
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required>
+
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required></textarea>
+
+                    <button type="submit">
+                        Send Message
+                    </button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>
+                &copy; 2026 Dennis Shlaih
+            </p>
+        </footer>
+    </body>
+</html>

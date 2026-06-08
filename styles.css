@@ -70,3 +70,22 @@ main {
     margin: 2rem auto;
 }
 
+section {
+    background-color: var(--card);
+    padding: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow:
+        0 4px 10px rgba(0,0,0,.08);
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
+footer {
+    background-color: var(--secondary);
+    color: white;
+    text-align: center;
+}

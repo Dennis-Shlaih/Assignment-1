@@ -85,12 +85,15 @@ section h2 {
 }
 
 #projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
 }
 
 #projects article {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
     border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
@@ -100,28 +103,18 @@ section h2 {
 
 #projects img {
     width: 100%;
-
     height: auto;
-
     border-radius: 8px;
-
     margin: 1rem 0;
-}
-
-#projects article {
     transition: transform .2s ease;
 }
 
-#projects article:hover {
-    transform: translateY(-5px);
+#projects img:hover {
+    transform: scale(1.02);
 }
 
-#projects ul {
-    padding-left: 1.5rem;
-}
-
-#projects li {
-    margin-bottom: .5rem;
+#projects a {
+    display: block;
 }
 
 #skills ul {

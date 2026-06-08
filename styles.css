@@ -89,3 +89,22 @@ footer {
     color: white;
     text-align: center;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: .75rem;
+    margin-top: 1rem;
+    background-color: var(--primary);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--accent);
+}
